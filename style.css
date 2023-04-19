@@ -1,0 +1,36 @@
+#carousel{
+    border: 4px solid black;
+    height: 500px;
+    width: 2400px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 800px 800px 800px;
+    transition: transform 0.3s ease-in-out;
+}
+.item{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.item>img{
+    width: 100%;
+    height: 100%;
+}
+#i1{
+    display: block;
+}
+#buttons{
+    width: 800px;
+    height: 40px;
+    border: 4px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#buttons>button{
+    background-color: beige;
+}
+#buttons>button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 243);
+}
